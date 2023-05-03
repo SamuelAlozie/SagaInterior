@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 99;
+}
+header nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    padding: 20px;
+}
+header .logo img{
+    width: 80px;
+    border-radius: 8px;
+}
+nav .menu{
+    display: flex;
+    gap: 90px;
+    padding: 20px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}nav .menu .menu-items{
+    transition: 1s ease-in-out;
+}
+nav .menu-items:hover{
+    color: rgb(202, 92, 2);
+}
+.menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+  
+
+nav button{
+    background-color: black;
+    border-radius: 50px;
+    color: rgb(236, 156, 5);
+    font-weight: bold;
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+main .hero{
+    display: grid;
+    place-items: center;
+    font-size: 65px;
+    padding: 20px;
+    margin-top: 10rem;
+}
+main .hero-content img{
+    width: 100%;
+}
+main .hero-content p{
+    width: 90%;
+    margin-top: 20px;
+    color: gray;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+}
+main .hero-content .hero-text{
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+    
+}
+main .hero-bottom{
+    display: grid;
+    place-items: center;
+    margin-top: 3rem;
+}
+main .hero-contents{
+    display: flex;
+    align-items: center;
+}
+main .hero-bottom .hero-contents{
+    display: flex;
+    width: 70%;
+}
+main .hero-bottom .hero-contents p{
+    text-align: justify;
+}
+main .hero-contents img{
+    width: 300%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 20px;
+}
+main .hero-bottom .hero-bottom-right{
+    line-height: 30px;
+}
+main .hero-bottom h5{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+main .hero-contents button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main .Gallery{
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+}
+main .Gallery h2{
+    font-size: 50px;
+    color: rgb(202, 92, 2);
+}
+main .gallery-contents{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+}
+main .gallery-contents img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 320px;
+}
+main .insights{
+    display: grid;
+    place-items: center;
+    margin-top: 8rem;
+}
+main .insights h1{
+    color: rgb(202, 92, 2);
+    text-align: center;
+}
+main .insights .insight-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+    gap: 40px;
+    line-height: 20px;
+}
+main .insights .insight-image img{
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+main .insights .insight-image h4{
+    font-size: 20px;
+    margin-top: 15px;
+}
+main .insights .insight-image p{
+    color: gray;
+    margin-top: 12px;
+}
+.form{
+    display: grid;
+    place-items: center;
+    margin-top: 5rem;
+
+}
+.form h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+input{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+input:focus{
+    border: 2px solid black;
+    outline: none;
+}
+textarea{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+textarea:focus{
+    border: 2px solid black;
+    outline: none;
+}
+form button{
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+footer{
+    background-color: black;
+    padding: 50px;
+    color: white;
+    margin-top: 8rem;
+}
+footer .footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-info h2{
+    width: 50%;
+    font-size: 40px;
+}
+footer .footer-info li{
+    list-style: none;
+    line-height: 20px;
+    color: gray;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer .footer-info a{
+    text-decoration: none;
+    color: gray;
+}
+footer .courtesy{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: rgb(236, 156, 5);
+    text-align: center;
+}
+hr{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 780px) {
+    header nav .menu .menu-items{
+        display: none;
+    }
+    main .hero{
+        font-size: 20px;
+    }
+    .hero-content .swiper img{
+        width: 100%;
+        height: 100vh;
+    }
+    main .hero-content p{
+        width: 90%;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    main .hero-contents{
+        flex-direction: column;
+    }
+    main .hero-contents img{
+        width: 140%;
+        height: 70vh;
+    }
+    main .hero-bottom .hero-bottom-right{
+        width: 120%;
+    }
+    main .gallery-contents{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+    }
+    main .insights .insight-image{
+        flex-direction: column;
+    }
+    form{
+        width: 100%;
+    }
+    footer .footer-info h2{
+        width: 100%;
+        margin-bottom: 100px;
+        font-size: 30px;
+    }
+    footer .footer-info{
+        flex-direction: column;
+    }
+    footer .footer-info1{
+        margin-bottom: 20px;
+    }
+    footer .courtesy{
+        display: flex;
+        justify-content: center;
+    }
+}
