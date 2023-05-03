@@ -49,7 +49,7 @@ nav .menu-items:hover{
 }
   
 
-nav button{
+nav a{
     background-color: black;
     border-radius: 50px;
     color: rgb(236, 156, 5);
@@ -57,6 +57,7 @@ nav button{
     border: none;
     padding: 15px 25px;
     cursor: pointer;
+    text-decoration: none;
 }
 main .hero{
     display: grid;
@@ -271,6 +272,9 @@ hr{
     }
     main .hero{
         font-size: 20px;
+    }
+    main .hero h1{
+        text-align: center;
     }
     .hero-content .swiper img{
         width: 100%;
